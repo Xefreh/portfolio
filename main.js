@@ -36,4 +36,20 @@ document.addEventListener("DOMContentLoaded", function () {
       moveToSlide(index);
     });
   });
+
+  const projet1_image = document.querySelector("#projet1");
+  const projet2_image = document.querySelector("#projet2");
+  const projet3_image = document.querySelector("#projet3");
+
+  projet1_image.addEventListener("click", () => {
+    window.open("https://xefreh.github.io/pixel-verdict/", "_blank");
+  });
+
+  projet2_image.addEventListener("click", () => {
+    window.open("https://xefreh.github.io/chifoumi/", "_blank");
+  });
+
+  projet3_image.addEventListener("click", () => {
+    window.open("https://xefreh.github.io/blindtaste/", "_blank");
+  });
 });
