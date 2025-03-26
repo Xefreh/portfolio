@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
   slides.forEach((slide, index) => {
-    if (mobileCheck) {
+    if (mobileCheck) {  
       slide.style.left = slideWidth * index + "%";
     } else {
       slide.style.left = slideWidth * index + "px";
